@@ -5,7 +5,9 @@
 
 [yourself](https://vasiliytaburetking.github.io)
 
-[practic_es_proj_001](https://vasiliytaburetking.github.io/vasiliytaburetking.github.io/practic_es_proj_001/ "20201120")
+[practic_es_proj_001 githubpage](https://vasiliytaburetking.github.io/vasiliytaburetking.github.io/practic_es_proj_001/ "20201120")
+
+[practic_es_proj_001 000webhost](https://taburetking.000webhostapp.com/practic_es_proj_001/ "20201120")
 
 >>>
 
