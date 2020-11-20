@@ -1,0 +1,285 @@
+/* main */
+
+@font-face {
+  font-family: 'Manrope-Light';
+  src: local('Manrope Light'), local('Manrope-Light'), url('fonts/ttf/Manrope-Light.ttf') format('truetype'),
+  url('fonts/woff/Manrope-Light.woff') format('woff'),
+  url('fonts/woff2/Manrope-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Manrope-ExtraLight';
+  src: local('Manrope ExtraLight'), local('Manrope-ExtraLight'),
+  url('fonts/ttf/Manrope-ExtraLight.ttf') format('truetype'),
+  url('fonts/woff/Manrope-ExtraLight.woff') format('woff'),
+  url('fonts/woff2/Manrope-ExtraLight.woff2') format('woff2');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* clear default */
+
+ul, li {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+body {
+    font-family: Manrope-ExtraLight, sans-serif, Arial, Tahoma;
+    font-size: 15px;
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+
+header {
+    /* width: 150vh; */
+    margin: auto;
+    /* padding: 16px 0px 0 16px; */
+    background-color: rgba(51, 204, 255, .25);
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+}
+
+nav {
+    height: 44px;
+    width: 100%;
+    display: block;
+    /* margin-left: -16px; */
+    margin-right: 0px;
+    background-color: rgba(51, 204, 255, 0.75);
+    /* overflow: auto; */
+    position: relative;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Manrope-Light, sans-serif, Arial, Tahoma;
+    font-size: 25px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+/*
+    border: 2px solid black;
+*/
+}
+
+.logo{
+    box-sizing: border-box;
+
+    height: 100px;
+
+/*
+    border: 1px solid green;
+    background-color: rgba(0, 0, 0, .05)
+*/
+}
+
+.logo-img {
+    height: 99px;
+    margin: 16px 20px 0 16px;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+}
+
+.logo-name {
+    margin: 16px 0 0 0;
+    height: 100px;
+    display: inline-block;
+    color: rgba(204, 50, 0, 1);
+    font-family: SegoeUIBlack;
+    font-size: 50px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.social {
+    height: 70px;
+    padding: 40px 30px 0 0;
+    font-size: 20px;
+    display: inline-block;
+    float: right;
+    box-sizing: border-box;
+}
+
+.social-name{
+    height: 30px;
+    margin: 0 0 5px 0;
+    opacity: 0.5;
+    display: block;
+}
+
+.tagline{
+    margin: 0;
+    padding: 0;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(204, 51, 0, 1);
+    position: relative;
+    bottom: 25px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    font-family: Manrope-Light, san-serif, Arial, Tahoma;
+    font-weight: 900;
+    font-size: 18px;
+    margin: 0 0 0 19px;
+    /* padding: 15px 0 15px 9px; */
+    text-transform: uppercase;
+    /* height: auto; */
+    position: relative;
+    top: 10px;
+}
+
+.navigation li {
+    display: inline-block;
+    height: 100px;
+}
+
+.navigation a {
+    color: white;
+    background: rgba(0, 102, 153, 1);
+    padding: 6px 12px;
+    margin-top: 0px;
+}
+
+.main-container{
+  /*
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 1px solid green;
+  */
+
+}
+
+.aside-left {
+    box-sizing: border-box;
+    background-color: rgba(255, 204, 51, 0.25);
+    width: 20%;
+    height: 350px;
+    padding: 5px;
+    float: left;
+}
+
+.section-center {
+    box-sizing: border-box;
+    background-color: rgba(51, 204, 255, 0.15);
+    width: 60%;
+    height: auto;
+    padding: 5px;
+    display: inline-block;
+    float: left;
+}
+
+.img-002 {
+    height: 200px;
+    display: flex;
+    margin: 30px auto;
+}
+
+.aside-right {
+    box-sizing: border-box;
+    background-color: rgba(255, 204, 51, 0.25);
+    width: 20%;
+    height: 350px;
+    padding: 5px;
+    float: right;
+
+}
+
+.auxil-01 {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: orange;
+
+    display: none;
+
+}
+
+/*
+.auxil-02 {
+
+    box-sizing: border-box;
+    border: 1px solid green;
+
+}
+
+.auxil-03 {
+
+    background-color: rgba(0, 0, 0, .05)
+
+}
+
+.auxil-04 {
+
+    background-color: rgba(0, 0, 0, .1)
+
+}
+*/
+
+/*
+
+color
+1
+200, 83, 64
+CC0000
+2
+219, 187, 47
+3
+0D5C80
+13, 92, 128, 50
+4
+0A90CC
+10, 144, 204, 80
+
+color safety
+1
+204.0.0
+CC0000
+>1
+204.51.0
+CC3300
+>2
+255.204.51
+FFCC33
+>3
+0.102.153
+006699
+
+color 2
+>1
+204.51.0
+CC3300
+11
+
+>2
+255.204.51
+FFCC33
+
+fonts
+
+Fira Sans
+Fira Sans Condensed
+Raleway
+Inter
+Noto Sans SC
+Gothic A1
+> Manrope
+> Commissioner
+Montserrat
+
+
+    border: 1px solid green;
+    background-color: rgba(0, 0, 0, .05)
+
+*/
